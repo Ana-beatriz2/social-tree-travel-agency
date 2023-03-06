@@ -90,3 +90,21 @@ nav .link:hover {
 
     color: var(--yellow)
 }
+
+@media only screen and (max-width: 460px) {
+    .tree-container .avatar {
+        width: 260px;
+        height: 230px;
+        border-radius: 60%;
+    }
+
+    .tree-container .avatar img {
+        width: 253px;
+        height: 222px;
+        border-radius: 60%;
+    }
+
+    nav .link {
+        width: 310px;
+    }
+}
