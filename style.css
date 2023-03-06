@@ -1,0 +1,92 @@
+:root {
+    --body-bg-color: #2749ad;
+    --yellow: #FFD700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--body-bg-color);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .tree-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tree-container .avatar {
+    width: 297px;
+    height: 250px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid var(--yellow);
+    border-radius: 50%;
+}
+
+.tree-container .avatar img {
+    width: 289px;
+    height: 242px;
+    border-radius: 50%;
+}
+
+.tree-container .insta-user {
+    margin-top: 30px;
+    margin-bottom: 25px;
+
+    color: var(--yellow)
+}
+
+.tree-container nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .link {
+    margin-top: 15px;
+    width: 326px;
+    height: 49px;
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--yellow);
+
+    border: 2px solid var(--yellow);
+    border-radius: 4px;
+    padding: 13px 0;
+    transition: ease 0.5s;
+}
+
+nav .link:hover {
+    background: var(--yellow);
+    color: #FAF7FD;
+}
+
+.tree-container .company-registration {
+    margin-top: 45px;
+    margin-bottom: 25px;
+
+    color: var(--yellow)
+}
