@@ -105,6 +105,15 @@ nav .link:hover {
     }
 
     nav .link {
-        width: 310px;
+        width: 305px;
+    }
+
+    .tree-container .insta-user {
+        margin-top: 24px;
+        margin-bottom: 15px;
+    }
+
+    .tree-container .company-registration {
+        margin-top: 30px;
     }
 }
