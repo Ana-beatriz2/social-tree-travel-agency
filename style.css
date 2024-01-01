@@ -1,5 +1,5 @@
 :root {
-    --body-bg-color: #2749ad;
+    --body-bg-color: linear-gradient(180deg, #6f32eb 0, #4d2ad7 25%, #2222c2 50%, #001aad 75%, #001498 100%);
     --yellow: #FFD700;
 }
 
